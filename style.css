@@ -1,0 +1,89 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#opponent-choice{
+    width:230px;
+    height:240px;
+    margin: 10px;
+    background-color: beige;
+    
+   
+}
+#opponent-score {
+    border: 1px solid black;
+    border-width: 2px;
+   height: 40px;
+   width:50px;
+   background-color: rgb(131, 72, 187);
+   position: relative;
+}
+#opponent-score::before{
+    content: "Computer";
+    position: absolute;
+    top:-23px;
+    left:-4px;
+    font-size: 13px;
+    text-shadow: purple 1px 3px 2px;
+}
+#your-score{
+    border: 1px solid black;
+    border-width: 2px;
+   height: 40px;
+   width:50px;
+   background-color: rgb(111, 215, 93);
+   position:relative;
+
+}
+#your-score::before{
+    content: "You";
+    position: absolute;
+    top:-21px;
+    font-size: 13px;
+    text-shadow: rgb(15, 128, 0) 1px 3px 2px;
+}
+
+#your-choice{
+    width:230px;
+    height:240px;
+    margin: 10px;
+    background-color: beige;
+   
+   
+}
+.main-h1{
+    text-decoration: underline rgb(111, 215, 93);
+    
+}
+
+#choices{
+    width:240px;
+    height:80px;
+    margin-top: 10px;
+   display: flex;
+   padding: 15px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+#choices img{
+    width:90px;
+    height:90px;
+    
+
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:blue
+}
+h3{
+    color: rgb(241, 3, 241);
+}
